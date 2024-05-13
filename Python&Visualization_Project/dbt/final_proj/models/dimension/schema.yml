@@ -1,0 +1,39 @@
+
+version: 2
+
+models:
+  - name: Dim_customer
+    description: "customer dimension"
+    columns:
+      - name: id
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+  - name: Dim_employee
+    description: "employee dimension"
+    columns:
+      - name: id
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+  - name: Dim_playlist
+    description: "playlist dimension"
+    columns:
+      - name: id
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+  - name: Dim_track
+    description: "track dimension"
+    columns:
+      - name: id
+        description: ""
+        tests:
+          - unique
+          - not_null          
